@@ -1,0 +1,42 @@
+.body {
+  background-color: hsl(212, 45%, 89%);
+  size: 1440px;
+}
+.container {
+  background-color: white;
+  width: 273px;
+  height: 410px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #888;
+  align-content: center;
+  position: relative;
+  translate: (-50%, -50%);
+}
+.container-img {
+  height: 244px;
+  width: 245px;
+  border-radius: 30px;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  translate: (-50%, -50%);
+}
+.container h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+.bottom-text {
+  text-align: center;
+  padding-top: 2%;
+}
+p {
+  text-align: center;
+  color:hsl(220, 15%, 55%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
