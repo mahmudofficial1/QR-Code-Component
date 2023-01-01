@@ -1,6 +1,13 @@
+* {
+  align-content: center;
+  vertical-align: middle;
+}
 .body {
   background-color: hsl(212, 45%, 89%);
   size: 1440px;
+  vertical-align: middle;
+  align-content: center;
+  padding: 10%;
 }
 .container {
   background-color: white;
@@ -12,6 +19,7 @@
   align-content: center;
   position: relative;
   translate: (-50%, -50%);
+  overflow: hidden;
 }
 .container-img {
   height: 244px;
@@ -35,8 +43,9 @@
 }
 p {
   text-align: center;
-  color:hsl(220, 15%, 55%);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: hsl(220, 15%, 55%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
